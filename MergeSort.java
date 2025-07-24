@@ -4,7 +4,7 @@ class Allsorted
 {
     public void  mergeSorted(int[] a,int lb,int ub)
     {
-      if(lb<ub)
+      if( lb<ub)
       {
        int mid = (lb+ub)/2;
       mergeSorted(a, lb, mid);
